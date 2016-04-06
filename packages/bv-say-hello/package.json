@@ -1,8 +1,7 @@
 {
   "name": "bv-say-hello",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Says hello... a lot.",
-  "private": true,
   "main": "index.js",
   "publishConfig": {
     "registry": "http://qa-bv-sinopia.qa-us-east-1.flynn.nexus.bazaarvoice.com/"
