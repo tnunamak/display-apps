@@ -1,7 +1,7 @@
 {
   "name": "bv-random-number",
   "version": "0.0.2",
-  "description": "Ah-ha-ha-ha-ha",
+  "description": "Ah-ha-ha-ha-ha!",
   "main": "index.js",
   "publishConfig": {
     "registry": "http://qa-bv-sinopia.qa-us-east-1.flynn.nexus.bazaarvoice.com/"

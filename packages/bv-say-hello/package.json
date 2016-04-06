@@ -1,7 +1,7 @@
 {
   "name": "bv-say-hello",
   "version": "0.0.1",
-  "description": "",
+  "description": "Says hello... a lot.",
   "private": true,
   "main": "index.js",
   "publishConfig": {
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "display-apps-publish": "0.0.1",
-    "bv-random-number": "0.0.1"
+    "bv-random-number": "0.0.2"
   },
   "author": ""
 }

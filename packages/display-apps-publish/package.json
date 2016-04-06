@@ -12,6 +12,6 @@
   "bin": {
     "display-apps-publish": "./index.js"
   },
-  "author": "Bazaarvoice <UIArchitectureTeam@bazaarvoice.com>",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "author": "Bazaarvoice <UIArchitectureTeam@bazaarvoice.com>"
 }
