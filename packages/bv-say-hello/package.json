@@ -1,6 +1,6 @@
 {
   "name": "bv-say-hello",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Says hello... a lot.",
   "main": "index.js",
   "publishConfig": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "fake-prepublish": "display-apps-publish"
+    "prepublish": "display-apps-publish"
   },
   "dependencies": {
     "display-apps-publish": "0.0.1",
