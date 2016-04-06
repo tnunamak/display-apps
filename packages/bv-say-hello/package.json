@@ -1,17 +1,19 @@
 {
-  "name": "bv-random-number",
+  "name": "bv-say-hello",
   "version": "0.0.1",
-  "description": "Ah-ha-ha-ha-ha",
+  "description": "",
+  "private": true,
   "main": "index.js",
   "publishConfig": {
     "registry": "http://qa-bv-sinopia.qa-us-east-1.flynn.nexus.bazaarvoice.com/"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "display-apps-publish"
+    "fake-prepublish": "display-apps-publish"
   },
   "dependencies": {
-    "display-apps-publish": "0.0.1"
+    "display-apps-publish": "0.0.1",
+    "bv-random-number": "0.0.1"
   },
-  "author": "swat@bazaarvoice.com"
+  "author": ""
 }

@@ -1,6 +1,6 @@
 {
   "name": "display-apps-publish",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Builds and publishes a display-apps package asset.",
   "main": "index.js",
   "publishConfig": {
