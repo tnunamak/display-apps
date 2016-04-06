@@ -1,0 +1,17 @@
+{
+  "name": "bv-random-number",
+  "version": "0.0.2",
+  "description": "Ah-ha-ha-ha-ha",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "http://qa-bv-sinopia.qa-us-east-1.flynn.nexus.bazaarvoice.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "display-apps-publish"
+  },
+  "dependencies": {
+    "display-apps-publish": "0.0.1"
+  },
+  "author": "swat@bazaarvoice.com"
+}

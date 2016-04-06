@@ -1,0 +1,17 @@
+{
+  "name": "display-apps-publish",
+  "version": "0.0.2",
+  "description": "Builds and publishes a display-apps package asset.",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "http://qa-bv-sinopia.qa-us-east-1.flynn.nexus.bazaarvoice.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "display-apps-publish": "./index.js"
+  },
+  "author": "Bazaarvoice <UIArchitectureTeam@bazaarvoice.com>",
+  "license": "UNLICENSED"
+}
