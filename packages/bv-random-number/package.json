@@ -1,6 +1,6 @@
 {
   "name": "bv-random-number",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Ah-ha-ha-ha-ha!",
   "main": "index.js",
   "publishConfig": {
