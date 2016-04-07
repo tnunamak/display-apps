@@ -13,5 +13,8 @@
     "display-apps-publish": "./index.js"
   },
   "license": "UNLICENSED",
-  "author": "Bazaarvoice <UIArchitectureTeam@bazaarvoice.com>"
+  "author": "Bazaarvoice <UIArchitectureTeam@bazaarvoice.com>",
+  "dependencies": {
+    "aws-sdk": "^2.3.1"
+  }
 }
