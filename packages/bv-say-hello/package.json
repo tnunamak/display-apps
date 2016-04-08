@@ -1,6 +1,6 @@
 {
   "name": "bv-say-hello",
-  "version": "0.0.8",
+  "version": "0.0.11",
   "description": "Says hello... a lot.",
   "main": "index.js",
   "publishConfig": {
