@@ -1,0 +1,29 @@
+{
+  "name": "pin-prototype",
+  "author": "Bazaarvoice SWAT Team",
+  "version": "0.0.1",
+  "description": "Delivers the PIN prototype",
+  "engines": {
+    "node": "5.6.0",
+    "npm": "3.6.0"
+  },
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "http://qa-bv-sinopia.qa-us-east-1.flynn.nexus.bazaarvoice.com/"
+  },
+  "scripts": {
+    "build": "babel app -d app-dist",
+    "prepublish": "npm run build && display-apps-publish"
+  },
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.7.5",
+    "babel-preset-es2015": "^6.6.0",
+    "cheerio": "^0.20.0",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "request": "^2.70.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.7.7"
+  }
+}
