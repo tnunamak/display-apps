@@ -1,0 +1,124 @@
+
+/* Module Styles */
+
+.bv_pin-product {
+  font-weight: bold;
+  float: left;
+  overflow: hidden;
+  width: 140px;
+}
+.bv_pin-product > p {
+  font-size: small;
+  margin: 5px 0px;
+}
+.bv_pin-product > button {
+  background-color: white;
+  color: #F96305;
+  border: solid 1px #F96305;
+  width: 90%;
+  height: 25px;
+  margin: auto;
+  display: block;
+}
+.bv_pin-product > button:nth-of-type(1) {
+  background-color: #F96305;
+  color: white;
+  margin-top: 5px;
+}
+.bv_pin-product > button:nth-of-type(2) {
+  margin: 5px auto;
+}
+
+/* Container Styles */
+
+.bv_pin-defaultContainer {
+  width: 440px;
+  overflow: hidden;
+}
+.bv_pin-defaultContainer > div:nth-of-type(2) {
+  margin: 0px 10px;
+}
+
+/* Modal Popup Styles */
+#bv_pin-modal-bg {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: Black;
+  opacity: 0.75;
+  z-index: 1001;
+}
+#bv_pin-modal-container {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1002;
+}
+#bv_pin-modal-contents {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 500px;
+  margin: auto;
+  
+  background-color: White;
+  opacity: 1;
+  padding: 10px;
+}
+#bv_pin-modal-wrapper {
+  margin-top: 10px;
+  margin-left: 30px;
+  padding-bottom: 1px;
+}
+#bv_pin-modal-close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 50%;
+  background-color: Black;
+  color: White;
+  font-weight: bold;
+  height: 25px;
+  border: solid 3px White;
+  font-size: large;
+  cursor: pointer;
+  padding: 3px 8px;
+}
+
+/* Rollover Menu styles */
+
+#bv_pin-menu {
+  display: none;
+  position: absolute;
+  right: 0px;
+  z-index: 2;
+  background-color: white;
+  padding: 10px;
+}
+#bv_pin-menu > p {
+  padding: 10px 0px 10px 0px;
+  font-size: small;
+}
+
+/* Call to Action styles */
+
+#bv_pin-cta {
+  position: relative;
+}
+#bv_pin-cta > div:first-of-type {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  height: 20px;
+  padding: 2px 7px 0px 8px;
+}
